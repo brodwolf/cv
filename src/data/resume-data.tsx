@@ -5,8 +5,8 @@ import { XIcon } from "../components/icons/XIcon";
 export const RESUME_DATA = {
   name: "Wilham Georg Longen Brodwolf",
   initials: "WB",
-  location: "Rio do Sul - Santa Catarina, Brazil",
-  locationLink: "https://www.google.com/maps/place/Rio+do+Sul",
+  location: "Santa Catarina, Brazil. GMT-3",
+  locationLink: "https://www.google.com/maps/place/Santa+Catarina",
   about:
     "Mid Level Full Stack Engineer focused on create intuitive, customer-focused applications for seamless user experiences.",
   summary:
@@ -38,7 +38,7 @@ export const RESUME_DATA = {
       badges: ["Incomplete"],
       school: "Military Engineering Institute (IME)",
       degree: "Aeronautical Mechanical Engineering",
-      start: "2016",
+      start: "2017",
       end: "2017",
     },
     {
@@ -60,7 +60,7 @@ export const RESUME_DATA = {
       school: "Maringá University Center (UniCesumar)",
       degree: "Software Engineering",
       start: "2022",
-      end: "",
+      end: "Current",
     },
   ],
   work: [

@@ -37,12 +37,6 @@ export default function Page() {
                   alt="brazil"
                 />
                 <Image
-                  src="/germany.png"
-                  width={24}
-                  height={24}
-                  alt="germany"
-                />
-                <Image
                   src="/united-kingdom.png"
                   width={24}
                   height={24}
@@ -124,9 +118,10 @@ export default function Page() {
               <Card key={education.school}>
                 <CardHeader>
                   <div className="flex items-center justify-between gap-x-2 text-base">
-
                     <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
-                      {education.school}
+                      <a className="hover:underline" href={education.school}>
+                        {education.school}
+                      </a>
 
                       <span className="inline-flex gap-x-1">
                         {education.badges.map((badge) => (
@@ -145,7 +140,9 @@ export default function Page() {
                     </div>
                   </div>
                 </CardHeader>
-                <CardContent className="mt-2">{education.degree}</CardContent>
+                <CardContent className="mt-2 font-mono text-sm leading-none">
+                  {education.degree}
+                </CardContent>
               </Card>
             );
           })}
