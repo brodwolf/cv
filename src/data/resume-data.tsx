@@ -10,7 +10,7 @@ export const RESUME_DATA = {
   about:
     "Mid Level Full Stack Engineer focused on create intuitive, customer-focused applications for seamless user experiences.",
   summary:
-    "Development of scalable, accessible solutions with a focus on user experience. Key technologies: React, Node.js, Typescript, NestJs, Jest | PostgreSQL, MongoDB, Redis, S3 | AWS, Docker, Grafana, RabbitMQ, Terraform, Jenkins, Prometheus |",
+    "Development of scalable, accessible solutions with a focus on user experience.",
   avatarUrl: "https://media.licdn.com/dms/image/C5603AQGZFjntVrD7Kg/profile-displayphoto-shrink_800_800/0/1632881490065?e=1709164800&v=beta&t=Nz89_0yw37JdgcDC7S4N5K_LMGRjr_1kqN7BJ4DDNfI",
   personalWebsiteUrl: "https://brodwolf.dev",
   contact: {
@@ -99,12 +99,22 @@ export const RESUME_DATA = {
     "JavaScript",
     "TypeScript",
     "React/Next.js",
+    "React Native",
     "Vue/Nuxt.js",
+    "Electron",
     "Node.js",
-    "Nest",
+    "Nest.js",
+    "Java / Spring Boot",
+    "PHP",
     "PostgreSQL",
     "MongoDB",
+    "RabbitMQ",
+    "Redis",
+    "Kafka",
+    "Jenkins",
+    "Grafana",
     "AWS Cloud Platform",
+    "Azure",
   ],
   projects: [
     {
