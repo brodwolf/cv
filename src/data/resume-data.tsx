@@ -10,7 +10,7 @@ export const RESUME_DATA = {
   about:
     "Mid Level Full Stack Engineer focused on create intuitive, customer-focused applications for seamless user experiences.",
   summary:
-    "Development of scalable, accessible solutions with a focus on user experience.",
+    "As a Full Stack Engineer, I thrive in dynamic, fast-paced teams that transform projects into successful products. Over the past few years, I've contributed to various complementary projects, forming a robust ecosystem that fosters the growth and stability of the main project. My primary goal is crafting scalable, user-centric solutions with a emphasis on accessibility. Currently, I work mostly with TypeScript, React, Node.js, and NestJS.",
   avatarUrl: "https://media.licdn.com/dms/image/C5603AQGZFjntVrD7Kg/profile-displayphoto-shrink_800_800/0/1632881490065?e=1709164800&v=beta&t=Nz89_0yw37JdgcDC7S4N5K_LMGRjr_1kqN7BJ4DDNfI",
   personalWebsiteUrl: "https://brodwolf.dev",
   contact: {
