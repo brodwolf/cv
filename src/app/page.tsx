@@ -48,6 +48,12 @@ export default function Page() {
                   height={24}
                   alt="spain"
                 />
+                <Image
+                  src="/germany.png"
+                  width={24}
+                  height={24}
+                  alt="germany"
+                />
               </div>
             </div>
 
