@@ -132,7 +132,7 @@ export const RESUME_DATA = {
       description: "A software to empowering governmental entities with data-driven insights for efficient, transparent, and citizen-focused governance.",
       link: {
         label: "marketing.ipm.com.br",
-        href: "https://marketing.ipm.com.br/lp-dara-oct-23/",
+        href: "https://marketing.ipm.com.br/dara-ia",
       },
     },
     {
@@ -144,7 +144,7 @@ export const RESUME_DATA = {
         "Node.js",
         "RabbitMQ",
       ],
-      description: "A Implementation of Microsoft Power BI APIs to enhance the in-house data visualization application",
+      description: "A Implementation of Microsoft Power BI APIs to enhance the in-house data visualization application"
     },
     {
       title: "E-commerce Payment Gateway",
@@ -158,7 +158,7 @@ export const RESUME_DATA = {
       description: "A robust system handling diverse payment methods for an e-commerce platform.",
       link: {
         label: "portal-pagamentos",
-        href: "https://portal.pagamentos.magazord.com.br/",
+        href: "https://www.magazord.com.br/solucoes/recursos/meio-de-pagamento-proprio",
       },
     },
     {
@@ -172,7 +172,7 @@ export const RESUME_DATA = {
       description: "An e-commerce partnership app facilitating seamless collaborations and alliances among businesses for amplified growth and market expansion.",
       link: {
         label: "portal-parceiros",
-        href: "https://portal.parceiros.magazord.com.br/",
+        href: "https://www.magazord.com.br/parceiros",
       },
     }
   ],
