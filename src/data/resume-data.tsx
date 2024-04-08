@@ -105,6 +105,7 @@ export const RESUME_DATA = {
     "Node.js",
     "Nest.js",
     "Java / Spring Boot",
+    "Python",
     "PHP",
     "PostgreSQL",
     "MongoDB",
