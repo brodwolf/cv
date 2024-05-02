@@ -89,8 +89,8 @@ export const RESUME_DATA = {
       link: "https://www.magazord.com.br/",
       badges: ["Hybrid"],
       title: "Magazord - Digital Commerce",
-      start: "2022",
-      end: "Current",
+      start: "2023",
+      end: "2024",
       description:
         "Development of scalable, accessible solutions with a focus on user experience. Key technologies: React, Node.js, Typescript, NestJs, Vue, Jest, Cypress | PostgreSQL, MongoDB, Redis, S3 | AWS, Docker, Grafana, RabbitMQ, Terraform, Jenkins, Prometheus |",
     },
