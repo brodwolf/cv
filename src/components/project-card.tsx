@@ -43,11 +43,11 @@ export function ProjectCard({ title, description, tags, role, link }: Props) {
         </div>
       </CardHeader>
       <CardContent className="flex">
-        <div className="mt-2 flex flex-wrap gap-1">
+        <div className="mt-2 flex flex-wrap gap-2 gap-x-2">
           {role.map((role) => (
             <Badge
-              className="px-1 py-0 text-[10px] border-primary/15"
-              variant="secondary"
+              className="px-1 py-0 text-[10px]"
+              variant="default"
               key={role}
             >
               {role}

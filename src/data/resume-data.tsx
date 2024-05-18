@@ -153,7 +153,6 @@ export const RESUME_DATA = {
     "Jenkins",
     "Grafana",
     "AWS Cloud Platform",
-    "Azure"
   ],
   projects: [
     {
