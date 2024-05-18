@@ -7,10 +7,8 @@ export const RESUME_DATA = {
   initials: "WB",
   location: "Santa Catarina, Brazil. GMT-3",
   locationLink: "https://www.google.com/maps/place/Santa+Catarina",
-  about:
-    "Mid Level Full Stack Engineer focused on create intuitive, customer-focused applications for seamless user experiences.",
-  summary:
-    "As a Full Stack Engineer, I thrive in dynamic, fast-paced teams that transform projects into successful products. Over the past few years, I've contributed to various complementary projects, forming a robust ecosystem that fosters the growth and stability of the main project. My primary goal is crafting scalable, user-centric solutions with a emphasis on accessibility. Currently, I work mostly with TypeScript, React, Node.js, and NestJS.",
+  about: "Senior Full Stack Engineer focused on creating intuitive, customer-focused applications for seamless user experiences.",
+  summary: "As a Full Stack Engineer, I thrive in dynamic, fast-paced teams that transform projects into successful products. Over the past few years, I've contributed to various complementary projects, forming a robust ecosystem that fosters the growth and stability of the main project. My primary goal is crafting scalable, user-centric solutions with an emphasis on accessibility. Currently, I work mostly with TypeScript, React, Node.js, and NestJS.",
   avatarUrl: "/profile.png",
   personalWebsiteUrl: "https://brodwolf.dev",
   contact: {
@@ -19,19 +17,19 @@ export const RESUME_DATA = {
       {
         name: "GitHub",
         url: "https://github.com/Brodwolf",
-        icon: GitHubIcon,
+        icon: GitHubIcon
       },
       {
         name: "LinkedIn",
         url: "https://www.linkedin.com/in/brodwolf/",
-        icon: LinkedInIcon,
+        icon: LinkedInIcon
       },
       {
         name: "X",
         url: "https://x.com/brodwolf_dev",
-        icon: XIcon,
-      },
-    ],
+        icon: XIcon
+      }
+    ]
   },
   education: [
     {
@@ -39,61 +37,101 @@ export const RESUME_DATA = {
       school: "Military Engineering Institute (IME)",
       degree: "Aeronautical Mechanical Engineering",
       start: "2017",
-      end: "2017",
+      end: "2017"
     },
     {
       badges: ["Incomplete"],
       school: "University of Buenos Aires (UBA)",
       degree: "Medicine",
       start: "2017",
-      end: "2021",
+      end: "2021"
     },
     {
       badges: ["Incomplete"],
       school: "University of the Alto Vale do Itajaí (Unidavi)",
       degree: "Information Technology and Information Systems",
       start: "2021",
-      end: "2022",
+      end: "2022"
     },
     {
-      badges: ["Enrroled"],
+      badges: ["Enrolled"],
       school: "Maringá University Center (UniCesumar)",
       degree: "Software Engineering",
       start: "2022",
-      end: "Current",
-    },
+      end: "Current"
+    }
   ],
   work: [
     {
       company: "IPM Sistemas",
       link: "https://www.ipm.com.br",
-      badges: ["Presential"],
       title: "Junior Backend Developer",
+      badges: ["e-government"],
       start: "2021",
       end: "2022",
-      description:
-        "Development and maintenance of software in public management system, using the following technologies: PHP, JS, HTML/CSS, PostgreSQL, and BIRT.",
+      description: "Development and maintenance of software in a public management system.",
+      technologies: [
+        "PHP",
+        "JS",
+        "HTML/CSS",
+        "PostgreSQL",
+        "BIRT"
+      ]
     },
     {
       company: "IPM Sistemas",
       link: "https://www.ipm.com.br",
-      badges: ["Presential"],
-      title: "Fullstack Software Analyist",
+      title: "Fullstack Software Analyst",
+      badges: ["e-government"],
       start: "2022",
       end: "2023",
-      description:
-        "Development of B.I / Analytics Software implementing concepts such as Microservices Architecture, Microfrontends, SingleSPA, TDD, CQRS, Design Patterns, and Clean Architecture using the following technologies: VueJs, Tailwind, NodeJs, Typescript, RabbitMQ, JEST, PostgreSQL, Trino, MongoDB, Jenkins, Docker, Kubernetes, ArgoCD, Airflow, and Grafana.",
+      description: "Development of BI and in-house data intelligence software.",
+      technologies: [
+        "VueJs",
+        "Tailwind",
+        "NodeJs",
+        "Typescript",
+        "RabbitMQ",
+        "JEST",
+        "PostgreSQL",
+        "Trino",
+        "MongoDB",
+        "Jenkins",
+        "Docker",
+        "Kubernetes",
+        "ArgoCD",
+        "Airflow",
+        "Grafana"
+      ]
     },
     {
       company: "Magazord",
       link: "https://www.magazord.com.br/",
-      badges: ["Hybrid"],
-      title: "Magazord - Digital Commerce",
+      title: "Digital Commerce Developer",
+      badges: ["e-commerce"],
       start: "2023",
       end: "2024",
-      description:
-        "Development of scalable, accessible solutions with a focus on user experience. Key technologies: React, Node.js, Typescript, NestJs, Vue, Jest, Cypress | PostgreSQL, MongoDB, Redis, S3 | AWS, Docker, Grafana, RabbitMQ, Terraform, Jenkins, Prometheus |",
-    },
+      description: "Development of scalable, accessible solutions with a focus on user experience.",
+      technologies: [
+        "React",
+        "Tailwind",
+        "Node.js",
+        "Typescript",
+        "NestJs",
+        "Jest",
+        "Cypress",
+        "PostgreSQL",
+        "MongoDB",
+        "Redis",
+        "AWS",
+        "Docker",
+        "Grafana",
+        "RabbitMQ",
+        "Terraform",
+        "Jenkins",
+        "Prometheus"
+      ]
+    }
   ],
   skills: [
     "JavaScript",
@@ -115,66 +153,108 @@ export const RESUME_DATA = {
     "Jenkins",
     "Grafana",
     "AWS Cloud Platform",
-    "Azure",
+    "Azure"
   ],
   projects: [
     {
-      title: "E-Government data science APP",
+      title: "E-Government Data Science Application",
+      role: [
+        "Lead Frontend Developer"
+      ],
       techStack: [
-        "Lead Frontend Developer",
         "Vue.js",
         "TypeScript",
         "Node.js",
         "Trino",
         "Kafka",
         "Airflow",
-        "Kubernets",
+        "Kubernetes"
       ],
-      description: "A software to empowering governmental entities with data-driven insights for efficient, transparent, and citizen-focused governance.",
+      description: "Empowering governmental entities with data-driven insights for efficient, transparent, and citizen-focused governance.",
       link: {
-        label: "marketing.ipm.com.br",
-        href: "https://marketing.ipm.com.br/dara-ia",
-      },
+        "label": "marketing.ipm.com.br",
+        "href": "https://marketing.ipm.com.br/dara-ia"
+      }
     },
     {
-      title: "Data visualization APP",
+      title: "Data Visualization Application",
+      role: [
+        "Lead Backend Developer"
+      ],
       techStack: [
-        "Lead Backend Developer",
         "TypeScript",
         "ASP.NET",
         "Node.js",
-        "RabbitMQ",
+        "RabbitMQ"
       ],
-      description: "A Implementation of Microsoft Power BI APIs to enhance the in-house data visualization application"
+      description: "Implementation of Microsoft Power BI APIs to enhance the in-house data visualization application."
     },
     {
-      title: "E-commerce Payment Gateway",
+      title: "E-Commerce Payment Gateway",
+      role: [
+        "Lead Full Stack Developer"
+      ],
       techStack: [
-        "Full Stack Developer",
         "React",
         "TypeScript",
         "Node.js",
-        "RabbitMQ",
+        "RabbitMQ"
       ],
       description: "A robust system handling diverse payment methods for an e-commerce platform.",
       link: {
         label: "portal-pagamentos",
-        href: "https://www.magazord.com.br/solucoes/recursos/meio-de-pagamento-proprio",
-      },
+        href: "https://www.magazord.com.br/solucoes/recursos/meio-de-pagamento-proprio"
+      }
     },
     {
-      title: "E-commerce partnership APP",
+      title: "E-Commerce Partnership Application",
+      role: [
+        "Full Stack Developer"
+      ],
       techStack: [
-        "Full Stack Developer",
         "React",
         "TypeScript",
-        "Node.js",
+        "Node.js"
       ],
       description: "An e-commerce partnership app facilitating seamless collaborations and alliances among businesses for amplified growth and market expansion.",
       link: {
         label: "portal-parceiros",
-        href: "https://www.magazord.com.br/parceiros",
-      },
+        href: "https://www.magazord.com.br/parceiros"
+      }
+    },
+    {
+      title: "Fraud Prevention Service",
+      role: [
+        "Software Analyst"
+      ],
+      techStack: [
+        "Java",
+        "PHP",
+        "Python",
+        "JavaScript",
+        "Machine Learning"
+      ],
+      description: "Artificial Intelligence solution for detecting fraud in electronic transactions. An advanced AI monitors sales continuously, learning from user behavior to enhance detection capabilities.",
+      link: {
+        label: "sentynela",
+        href: "https://www.sentynela.com.br/"
+      }
+    },
+    {
+      title: "Real-Time Database Monitoring",
+      role: [
+        "Software Analyst"
+      ],
+      techStack: [
+        "Kafka",
+        "Debezium",
+        "Dremio",
+        "Prometheus",
+        "Apache Iceberg",
+        "Apache Superset"
+      ],
+      // description: "Real-time database monitoring and data pipelines that integrate pipeline management, data lake storage, and data visualization."
+      description: "Real-Time database monitoring and data pipelines project that integrates pipeline management, data lake storage, and data visualization. Provides real-time database monitoring, while advanced analytics offer actionable insights and detailed system analysis."
     }
-  ],
-} as const;
+  ]
+}

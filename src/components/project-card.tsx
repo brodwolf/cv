@@ -10,13 +10,14 @@ import { Badge } from "./ui/badge";
 interface Props {
   title: string;
   description: string;
+  role: readonly string[];
   tags: readonly string[];
   link?: string;
 }
 
-export function ProjectCard({ title, description, tags, link }: Props) {
+export function ProjectCard({ title, description, tags, role, link }: Props) {
   return (
-    <Card className="flex flex-col overflow-hidden border border-muted p-3">
+    <Card className="flex flex-col w-full  overflow-hidden border border-muted p-3 group">
       <CardHeader className="">
         <div className="space-y-1">
           <CardTitle className="text-base">
@@ -24,10 +25,10 @@ export function ProjectCard({ title, description, tags, link }: Props) {
               <a
                 href={link}
                 target="_blank"
-                className="inline-flex items-center gap-1 hover:underline"
+                className="inline-flex items-center gap-1 group-hover:underline"
               >
                 {title}{" "}
-                <span className="flex-shrink-0 h-2 w-2 rounded-full bg-green-500"></span>
+                <span className="flex-shrink-0 h-2 w-2 ml-1 mt-0.5 rounded-full bg-green-500"></span>
               </a>
             ) : (
               title
@@ -41,8 +42,17 @@ export function ProjectCard({ title, description, tags, link }: Props) {
           </CardDescription>
         </div>
       </CardHeader>
-      <CardContent className="mt-auto flex">
+      <CardContent className="flex">
         <div className="mt-2 flex flex-wrap gap-1">
+          {role.map((role) => (
+            <Badge
+              className="px-1 py-0 text-[10px] border-primary/15"
+              variant="secondary"
+              key={role}
+            >
+              {role}
+            </Badge>
+          ))}
           {tags.map((tag) => (
             <Badge
               className="px-1 py-0 text-[10px]"
