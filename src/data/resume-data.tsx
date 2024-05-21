@@ -7,7 +7,7 @@ export const RESUME_DATA = {
   initials: "WB",
   location: "Santa Catarina, Brazil. GMT-3",
   locationLink: "https://www.google.com/maps/place/Santa+Catarina",
-  about: "Senior Full Stack Engineer focused on creating intuitive, customer-focused applications for seamless user experiences.",
+  about: "Senior Full Stack Software Engineer focused on creating intuitive, customer-focused applications for seamless user experiences.",
   summary: "As a Full Stack Engineer, I thrive in dynamic, fast-paced teams that transform projects into successful products. Over the past few years, I've contributed to various complementary projects, forming a robust ecosystem that fosters the growth and stability of the main project. My primary goal is crafting scalable, user-centric solutions with an emphasis on accessibility. Currently, I work mostly with TypeScript, React, Node.js, and NestJS.",
   avatarUrl: "/profile.png",
   personalWebsiteUrl: "https://brodwolf.dev",
