@@ -137,8 +137,8 @@ export const RESUME_DATA = {
       link: "https://azos.com.br/",
       title: "Fullstack Engineer",
       badges: ["Health Insurance", "Insuretech"],
-      start: "2023",
-      end: "2024",
+      start: "2024",
+      end: "current",
       description: "Delivering scalable, accessible health insurance solutions with a strong focus on user experience and personalized care.",
       technologies: [
         "Python",
