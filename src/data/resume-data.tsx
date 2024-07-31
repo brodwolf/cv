@@ -65,7 +65,7 @@ export const RESUME_DATA = {
     {
       company: "IPM Sistemas",
       link: "https://www.ipm.com.br",
-      title: "Junior Backend Developer",
+      title: "Backend Engineer",
       badges: ["e-government"],
       start: "2021",
       end: "2022",
@@ -81,7 +81,7 @@ export const RESUME_DATA = {
     {
       company: "IPM Sistemas",
       link: "https://www.ipm.com.br",
-      title: "Fullstack Software Analyst",
+      title: "Fullstack Engineer",
       badges: ["e-government"],
       start: "2022",
       end: "2023",
@@ -107,11 +107,11 @@ export const RESUME_DATA = {
     {
       company: "Magazord",
       link: "https://www.magazord.com.br/",
-      title: "Digital Commerce Developer",
+      title: "Fullstack Engineer",
       badges: ["e-commerce"],
       start: "2023",
       end: "2024",
-      description: "Development of scalable, accessible solutions with a focus on user experience.",
+      description: "Ensuring seamless and secure e-commerce transactions with a reliable and always available payment gateway solutions.",
       technologies: [
         "React",
         "Tailwind",
@@ -131,34 +131,53 @@ export const RESUME_DATA = {
         "Jenkins",
         "Prometheus"
       ]
+    },
+    {
+      company: "Azos",
+      link: "https://azos.com.br/",
+      title: "Fullstack Engineer",
+      badges: ["Health Insurance", "Insuretech"],
+      start: "2023",
+      end: "2024",
+      description: "Delivering scalable, accessible health insurance solutions with a strong focus on user experience and personalized care.",
+      technologies: [
+        "Python",
+        "React",
+        "Typescript",
+        "NestJs",
+        "Jest",
+        "Cypress",
+        "PostgreSQL",
+        "MongoDB",
+        "GCP",
+        "Sentry",
+        "Docker",
+        "Terraform",
+      ]
     }
   ],
   skills: [
-    "JavaScript",
     "TypeScript",
     "React/Next.js",
-    "React Native",
-    "Vue/Nuxt.js",
-    "Electron",
+    "Python",
+    "Tailwind",
     "Node.js",
     "Nest.js",
-    "Java / Spring Boot",
-    "Python",
-    "PHP",
+    "Electron",
     "PostgreSQL",
     "MongoDB",
     "RabbitMQ",
     "Redis",
     "Kafka",
     "Jenkins",
-    "Grafana",
     "AWS Cloud Platform",
+    "Google Cloud Platform",
   ],
   projects: [
     {
       title: "E-Government Data Science Application",
       role: [
-        "Lead Frontend Developer"
+        "Full Stack Developer"
       ],
       techStack: [
         "Vue.js",

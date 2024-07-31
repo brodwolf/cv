@@ -31,21 +31,21 @@ export default function Page() {
               >
                 <Languages className="h-3 w-3" />
                 <Image
-                  className="rounded-2xl"
+                  className="rounded-lg"
                   src="/brazil.png"
                   width={24}
                   height={24}
                   alt="brazil"
                   />
                 <Image
-                  className="rounded-2xl"
+                  className="rounded-lg"
                   src="/united-kingdom.png"
                   width={24}
                   height={24}
                   alt="united-kingdom"
                   />
                 <Image
-                  className="rounded-2xl"
+                  className="rounded-lg"
                   src="/spain.png"
                   width={24}
                   height={24}
