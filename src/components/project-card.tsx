@@ -46,7 +46,7 @@ export function ProjectCard({ title, description, tags, role, link }: Props) {
         <div className="mt-2 flex flex-wrap gap-2 gap-x-2">
           {role.map((role) => (
             <Badge
-              className="px-1 py-0 text-[10px]"
+              className="px-2 py-0 text-xs"
               variant="default"
               key={role}
             >
@@ -55,7 +55,7 @@ export function ProjectCard({ title, description, tags, role, link }: Props) {
           ))}
           {tags.map((tag) => (
             <Badge
-              className="px-1 py-0 text-[10px]"
+              className="px-2 py-0 text-xs"
               variant="secondary"
               key={tag}
             >

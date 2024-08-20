@@ -8,7 +8,7 @@ export const RESUME_DATA = {
   location: "Santa Catarina, Brazil. GMT-3",
   locationLink: "https://www.google.com/maps/place/Santa+Catarina",
   about: "Senior Full Stack Software Engineer focused on creating intuitive, customer-focused applications for seamless user experiences.",
-  summary: "As a Full Stack Engineer, I thrive in dynamic, fast-paced teams that transform projects into successful products. Over the past few years, I've contributed to various complementary projects, forming a robust ecosystem that fosters the growth and stability of the main project. My primary goal is crafting scalable, user-centric solutions with an emphasis on accessibility. Currently, I work mostly with TypeScript, React, Node.js, and NestJS.",
+  summary: "As a Full Stack Engineer, I thrive in dynamic, fast-paced teams that transform projects into successful products. Over the past few years, I've contributed to various complementary projects, forming a robust ecosystem that fosters the growth and stability of the main project. My primary goal is crafting scalable, user-centric solutions with an emphasis on accessibility. Currently, I work mostly with Node.js, Python and React.",
   avatarUrl: "/profile.png",
   personalWebsiteUrl: "https://brodwolf.dev",
   contact: {
@@ -33,14 +33,24 @@ export const RESUME_DATA = {
   },
   education: [
     {
-      badges: ["Incomplete"],
-      school: "Military Engineering Institute (IME)",
-      degree: "Aeronautical Mechanical Engineering",
-      start: "2017",
-      end: "2017"
+      badges: ["Enrolled"],
+      link: "https://www.unicesumar.edu.br/",
+      school: "Maringá University Center (UniCesumar)",
+      degree: "Software Engineering",
+      start: "2022",
+      end: "Current"
     },
     {
       badges: ["Incomplete"],
+      link: "https://unidavi.edu.br/",
+      school: "University of the Alto Vale do Itajaí (Unidavi)",
+      degree: "Information Technology and Information Systems",
+      start: "2021",
+      end: "2022"
+    },
+    {
+      badges: ["Incomplete"],
+      link: "https://www.uba.ar/",
       school: "University of Buenos Aires (UBA)",
       degree: "Medicine",
       start: "2017",
@@ -48,67 +58,42 @@ export const RESUME_DATA = {
     },
     {
       badges: ["Incomplete"],
-      school: "University of the Alto Vale do Itajaí (Unidavi)",
-      degree: "Information Technology and Information Systems",
-      start: "2021",
-      end: "2022"
-    },
-    {
-      badges: ["Enrolled"],
-      school: "Maringá University Center (UniCesumar)",
-      degree: "Software Engineering",
-      start: "2022",
-      end: "Current"
+      link: "https://www.ime.eb.mil.br/en/",
+      school: "Military Engineering Institute (IME)",
+      degree: "Aeronautical Mechanical Engineering",
+      start: "2017",
+      end: "2017"
     }
   ],
   work: [
     {
-      company: "IPM Sistemas",
-      link: "https://www.ipm.com.br",
-      title: "Backend Engineer",
-      badges: ["e-government"],
-      start: "2021",
-      end: "2022",
-      description: "Development and maintenance of software in a public management system.",
-      technologies: [
-        "PHP",
-        "JS",
-        "HTML/CSS",
-        "PostgreSQL",
-        "BIRT"
-      ]
-    },
-    {
-      company: "IPM Sistemas",
-      link: "https://www.ipm.com.br",
+      company: "Azos",
+      link: "https://azos.com.br/",
       title: "Fullstack Engineer",
-      badges: ["e-government"],
-      start: "2022",
-      end: "2023",
-      description: "Development of BI and in-house data intelligence software.",
+      badges: ["Health Insurance", "Insuretech"],
+      start: "2024",
+      end: "current",
+      description: "Delivering scalable, accessible health insurance solutions with a strong focus on user experience and personalized care.",
       technologies: [
-        "VueJs",
-        "Tailwind",
-        "NodeJs",
+        "Python",
+        "React",
         "Typescript",
-        "RabbitMQ",
-        "JEST",
+        "NestJs",
+        "Jest",
+        "Cypress",
         "PostgreSQL",
-        "Trino",
         "MongoDB",
-        "Jenkins",
+        "GCP",
+        "Sentry",
         "Docker",
-        "Kubernetes",
-        "ArgoCD",
-        "Airflow",
-        "Grafana"
+        "Terraform",
       ]
     },
     {
       company: "Magazord",
       link: "https://www.magazord.com.br/",
       title: "Fullstack Engineer",
-      badges: ["e-commerce"],
+      badges: ["e-commerce", "Payment Gateway"],
       start: "2023",
       end: "2024",
       description: "Ensuring seamless and secure e-commerce transactions with a reliable and always available payment gateway solutions.",
@@ -133,28 +118,47 @@ export const RESUME_DATA = {
       ]
     },
     {
-      company: "Azos",
-      link: "https://azos.com.br/",
+      company: "IPM Sistemas",
+      link: "https://www.ipm.com.br",
       title: "Fullstack Engineer",
-      badges: ["Health Insurance", "Insuretech"],
-      start: "2024",
-      end: "current",
-      description: "Delivering scalable, accessible health insurance solutions with a strong focus on user experience and personalized care.",
+      badges: ["Data inteligence",  "e-government"],
+      start: "2022",
+      end: "2023",
+      description: "Development of BI and in-house data intelligence software.",
       technologies: [
-        "Python",
-        "React",
+        "VueJs",
+        "Tailwind",
+        "NodeJs",
         "Typescript",
-        "NestJs",
-        "Jest",
-        "Cypress",
+        "RabbitMQ",
+        "JEST",
         "PostgreSQL",
+        "Trino",
         "MongoDB",
-        "GCP",
-        "Sentry",
+        "Jenkins",
         "Docker",
-        "Terraform",
+        "Kubernetes",
+        "ArgoCD",
+        "Airflow",
+        "Grafana"
       ]
-    }
+    },
+    {
+      company: "IPM Sistemas",
+      link: "https://www.ipm.com.br",
+      title: "Backend Engineer",
+      badges: ["ERP", "e-government"],
+      start: "2021",
+      end: "2022",
+      description: "Development and maintenance of software in a public management system.",
+      technologies: [
+        "PHP",
+        "JS",
+        "HTML/CSS",
+        "PostgreSQL",
+        "BIRT"
+      ]
+    },
   ],
   skills: [
     "TypeScript",
