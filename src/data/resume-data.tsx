@@ -60,7 +60,7 @@ export const RESUME_DATA = {
       badges: ["Incomplete"],
       link: "https://www.ime.eb.mil.br/en/",
       school: "Military Engineering Institute (IME)",
-      degree: "Aeronautical Mechanical Engineering",
+      degree: "Mechanical Engineering",
       start: "2017",
       end: "2017"
     }
