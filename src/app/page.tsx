@@ -17,7 +17,7 @@ export default function Page() {
     useEffect(() => {
         (async function () {
         const cal = await getCalApi({"namespace":"quickchat"});
-        cal("floatingButton", {"calLink":"wilham-brodwolf/quickchat","config":{"layout":"month_view","theme":"light"},"buttonColor":"#ffffff","buttonTextColor":"#000000","buttonText":"Let's chat!"});
+        cal("floatingButton", {"calLink":"wilham-brodwolf/quickchat","config":{"layout":"month_view","theme":"light"},"buttonColor":"#000000","buttonTextColor":"#ffffff","buttonText":"Let's chat!"});
         cal("ui", {"theme":"light","hideEventTypeDetails":false,"layout":"month_view"});
         })();
     }, [])
