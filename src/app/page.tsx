@@ -3,7 +3,7 @@ import { Card, CardHeader, CardContent } from "../components/ui/card";
 import { Badge } from "../components/ui/badge";
 import { Metadata } from "next";
 import { Section } from "../components/ui/section";
-import { GlobeIcon, Languages, MailIcon } from "lucide-react";
+import { GlobeIcon, Languages, MailIcon, CalendarPlus } from "lucide-react";
 import { Button } from "../components/ui/button";
 import { RESUME_DATA } from "../data/resume-data";
 import { ProjectCard } from "../components/project-card";
@@ -62,6 +62,17 @@ export default function Page() {
               >
                 <GlobeIcon className="h-3 w-3" />
                 {RESUME_DATA.location}
+              </a>
+            </p>
+
+            <p className="max-w-md items-center text-pretty font-mono text-xs text-muted-foreground">
+              <a
+                className="inline-flex gap-x-1.5 align-baseline leading-none hover:underline"
+                href="https://cal.com/wilham-brodwolf"
+                target="_blank"
+              >
+                <CalendarPlus className="h-3 w-3" />
+                Schedule a quick chat with me.
               </a>
             </p>
             
