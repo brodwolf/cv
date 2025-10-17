@@ -1,20 +1,35 @@
+"use client"
+
 import { Avatar, AvatarFallback, AvatarImage } from "../components/ui/avatar";
 import { Card, CardHeader, CardContent } from "../components/ui/card";
 import { Badge } from "../components/ui/badge";
-import { Metadata } from "next";
 import { Section } from "../components/ui/section";
 import { GlobeIcon, Languages, MailIcon, CalendarPlus } from "lucide-react";
 import { Button } from "../components/ui/button";
 import { RESUME_DATA } from "../data/resume-data";
 import { ProjectCard } from "../components/project-card";
 import Image from 'next/image'
+import { getCalApi } from '@calcom/embed-react'
+import { useEffect } from "react";
 
-export const metadata: Metadata = {
-  title: `${RESUME_DATA.name} | ${RESUME_DATA.about}`,
-  description: RESUME_DATA.summary,
-};
 
 export default function Page() {
+    useEffect(() => {
+        (async function () {
+        const cal = await getCalApi({"namespace":"quickchat"});
+        cal("floatingButton", {"calLink":"wilham-brodwolf/quickchat","config":{"layout":"month_view","theme":"light"},"buttonColor":"#ffffff","buttonTextColor":"#000000","buttonText":"Let's chat!"});
+        cal("ui", {"theme":"light","hideEventTypeDetails":false,"layout":"month_view"});
+        })();
+    }, [])
+
+    useEffect(() => {
+        (async function () {
+          const cal = await getCalApi({"namespace":"quickchat"});
+          cal("ui", {"theme":"light","hideEventTypeDetails":false,"layout":"month_view"});
+        })();
+      }, [])
+
+
   return (
     <main className="container relative mx-auto scroll-my-12 overflow-auto p-4 print:p-12 md:p-16">
       <section className="mx-auto w-full max-w-2xl space-y-8 bg-white print:space-y-6">
@@ -65,16 +80,21 @@ export default function Page() {
               </a>
             </p>
 
-            <p className="max-w-md items-center text-pretty font-mono text-xs text-muted-foreground">
-              <a
-                className="inline-flex gap-x-1.5 align-baseline leading-none hover:underline"
-                href="https://cal.com/wilham-brodwolf"
-                target="_blank"
-              >
-                <CalendarPlus className="h-3 w-3" />
-                Schedule a quick chat with me.
-              </a>
-            </p>
+            <button data-cal-namespace="quickchat"
+                data-cal-link="wilham-brodwolf/quickchat"
+                
+                data-cal-config='{"layout":"month_view","theme":"light"}'
+            >
+
+                <p className="max-w-md items-center text-pretty font-mono text-xs text-muted-foreground">
+                <a
+                    className="inline-flex gap-x-1.5 align-baseline leading-none hover:underline"
+                >
+                    <CalendarPlus className="h-3 w-3" />
+                    Schedule a quick chat with me.
+                </a>
+                </p>
+            </button>
             
             <div className="flex gap-x-1 pt-1 font-mono text-sm text-muted-foreground print:hidden">
               {RESUME_DATA.contact.email ? (
